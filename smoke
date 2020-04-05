@@ -4,6 +4,10 @@ int buzzer = 10;
 int smokeA0 = A5;
 int sensorThres = 400;
 
+
+//MQ-2 Gas sensor
+
+
 void setup() {
   pinMode(redLed, OUTPUT);
   pinMode(greenLed, OUTPUT);
