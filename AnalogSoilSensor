@@ -16,7 +16,7 @@ void loop() {
 
    output_value= analogRead(sensor_pin);
 
-   output_value = map(output_value,550,0,0,100);//Then, we will map the output values to 0-100, because the moisture is measured in percentage
+   output_value = map(output_value,550,0,0,100);// we will map the output values to 0-100, because the moisture is measured in percentage
    //For wet soil it was 550 for dry soil it is 100.
 
    Serial.print("Mositure : ");
