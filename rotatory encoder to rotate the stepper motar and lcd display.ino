@@ -42,14 +42,16 @@ void loop()
    }
   aLastState = aState;
 }
-void rotateCW() {
+void rotateCW()
+{
   digitalWrite(dirPin,LOW);//Its a global variable
     digitalWrite(stepPin,HIGH);
     delayMicroseconds(2000);
     digitalWrite(stepPin,LOW);
     delayMicroseconds(2000); 
 }
-void rotateCCW() {
+void rotateCCW()
+{
   digitalWrite(dirPin,HIGH);
     digitalWrite(stepPin,HIGH);
     delayMicroseconds(2000);
