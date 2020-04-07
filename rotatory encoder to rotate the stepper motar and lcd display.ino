@@ -32,7 +32,9 @@ void loop()
      if (counter >=30 ) {
       counter =0;
      }
-     
+      if (angle >=200  ) {
+      angle =0;
+     }
      lcd.clear();
      lcd.print("Position: ");
      lcd.print(int(angle*(-1.8)));
